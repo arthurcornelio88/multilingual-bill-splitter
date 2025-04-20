@@ -40,13 +40,15 @@ Accès : [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🤗 Version en ligne
+## 🚀 Tester tout de suite
 
-> Vous voulez tester sans rien installer ?
+[![Try on Hugging Face Spaces](https://img.shields.io/badge/🤗%20Try%20on-Hugging%20Face-blue?logo=huggingface)](https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue)
 
-Essayez directement sur **Hugging Face Spaces** :
+---
 
-🔗 [https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue](https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue)
+## 🎥 Demo
+
+<img src="demo.gif" width="100%" alt="Demo de l'appli de division de frais multilangue">
 
 ---
 
