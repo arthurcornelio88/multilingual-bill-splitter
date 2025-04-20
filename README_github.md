@@ -65,21 +65,8 @@ Vous pouvez choisir votre langue préférée dans le menu latéral :
 - [Streamlit](https://streamlit.io/)
 - [Pandas](https://pandas.pydata.org/)
 - Python 3.8+
+- Matplotlib
 - Docker (facultatif)
-
----
-
-## 📚 Ce que j’ai appris en développant cette app
-
-Ce projet a été une excellente occasion d’approfondir mes compétences avec **Streamlit**, en explorant à la fois des fonctionnalités simples et avancées. J’ai appris à créer des **interfaces interactives sur plusieurs pages**, avec navigation latérale et contenu dynamique. L’un des aspects les plus importants a été d’implémenter une **session persistante avec `st.session_state`**, qui permet de conserver les données même en changeant de page. J’ai également intégré la **génération de fichiers PDF dynamiques avec Matplotlib**, transformant les tableaux en rapports téléchargeables. Enfin, ce projet m’a permis de structurer mon code de manière modulaire, avec un système de traduction multilingue.
-
-### 🇧🇷 Em português
-
-Este projeto foi uma ótima oportunidade para me aprofundar em Streamlit, criando interfaces com múltiplas páginas e menus laterais. Aprendi a usar `st.session_state` para manter os dados entre interações, e implementei geração de PDFs dinâmicos com Matplotlib. Também organizei o código de forma modular e multilíngue.
-
-### 🇬🇧 In English
-
-This project was a great opportunity to go deeper with Streamlit, building a multi-page UI with sidebar navigation. I learned how to use `st.session_state` to persist data across interactions, and added dynamic PDF generation with Matplotlib. I also organized the code modularly and included multilingual support.
 
 ---
 
