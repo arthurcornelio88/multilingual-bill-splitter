@@ -16,20 +16,22 @@ def moeda(valor):
 
 def salvar_em_pdf(df_gastos, df_transacoes, nome_arquivo="transacoes.pdf"):
     with PdfPages(nome_arquivo) as pdf:
-        fig, ax = plt.subplots(figsize=(12, 6))
+        ax = plt.subplots(figsize=(12, 8))
         ax.axis('tight')
         ax.axis('off')
 
-        col1_x, col2_x = 0.05, 0.55
+        col1_x = 0.05, 0.55
+
+        plt.rcParams["font.family"] = "DejaVu Sans"  # ou Helvetica, Arial, etc
 
         tabela_gastos = ax.table(
             cellText=df_gastos.values,
             colLabels=df_gastos.columns,
             loc='center',
-            bbox=[col1_x, 0.1, 0.4, 0.8],
+            bbox=[col1_x, 0.05, 0.4, 0.9],
             cellLoc='center'
         )
-        tabela_gastos.auto_set_font_size(False)
+        tabela_gastos.auto_set_font_size(True)
         tabela_gastos.set_fontsize(12)
 
         for key, cell in tabela_gastos.get_celld().items():
@@ -40,10 +42,10 @@ def salvar_em_pdf(df_gastos, df_transacoes, nome_arquivo="transacoes.pdf"):
             cellText=df_transacoes.values,
             colLabels=df_transacoes.columns,
             loc='center',
-            bbox=[col2_x, 0.1, 0.4, 0.8],
+            bbox=[col1_x, 0.05, 0.4, 0.9],
             cellLoc='center'
         )
-        tabela_transacoes.auto_set_font_size(False)
+        tabela_transacoes.auto_set_font_size(True)
         tabela_transacoes.set_fontsize(12)
 
         for key, cell in tabela_transacoes.get_celld().items():
