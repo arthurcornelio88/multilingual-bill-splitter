@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: streamlit-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0 --server.runOnSave=true

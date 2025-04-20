@@ -85,16 +85,18 @@ textos = {
 }
 
 explicacoes = {
-    "pt": """### Imagine 3 amigos:
+    "pt": {
+        "texto": """
+### Imagine 3 amigos:
 - **João** gastou **€30**
 - **Maria** gastou **€10**
 - **Pedro** gastou **€20**
 
 ### 1️⃣ Calcular a média dos gastos:
-\[
-\text{{Média}} = \frac{{30 + 10 + 20}}{{3}} = €20
-\]
+""",
+        "formula": r"\text{Média} = \frac{30 + 10 + 20}{3} = €20",
 
+        "final": """
 ### 2️⃣ Calcular o saldo:
 - João: 30 - 20 = **+€10**
 - Maria: 10 - 20 = **–€10**
@@ -103,18 +105,22 @@ explicacoes = {
 ### 3️⃣ Transação:
 - Maria paga **€10 para João**
 
-🔚 Todos com saldo zerado.""",
+🔚 Todos com saldo zerado.
+"""
+    },
 
-    "fr": """### Imaginez 3 amis :
+    "fr": {
+        "texto": """
+### Imaginez 3 amis :
 - **Jean** a dépensé **30 €**
 - **Marie** a dépensé **10 €**
 - **Pierre** a dépensé **20 €**
 
 ### 1️⃣ Moyenne des dépenses :
-\[
-\text{{Moyenne}} = \frac{{30 + 10 + 20}}{{3}} = 20 €
-\]
+""",
+        "formula": r"\text{Moyenne} = \frac{30 + 10 + 20}{3} = 20 €",
 
+        "final": """
 ### 2️⃣ Solde :
 - Jean : 30 - 20 = **+10 €**
 - Marie : 10 - 20 = **–10 €**
@@ -123,18 +129,22 @@ explicacoes = {
 ### 3️⃣ Transaction :
 - Marie paie **10 € à Jean**
 
-🔚 Tout le monde est à égalité.""",
+🔚 Tout le monde est à égalité.
+"""
+    },
 
-    "en": """### Imagine 3 friends:
+    "en": {
+        "texto": """
+### Imagine 3 friends:
 - **John** spent **€30**
 - **Mary** spent **€10**
 - **Peter** spent **€20**
 
 ### 1️⃣ Calculate the average:
-\[
-\text{{Average}} = \frac{{30 + 10 + 20}}{{3}} = €20
-\]
+""",
+        "formula": r"\text{Average} = \frac{30 + 10 + 20}{3} = €20",
 
+        "final": """
 ### 2️⃣ Balance:
 - John: 30 - 20 = **+€10**
 - Mary: 10 - 20 = **–€10**
@@ -143,5 +153,7 @@ explicacoes = {
 ### 3️⃣ Transaction:
 - Mary pays **€10 to John**
 
-🔚 Everyone is balanced."""
+🔚 Everyone is balanced.
+"""
+    }
 }
