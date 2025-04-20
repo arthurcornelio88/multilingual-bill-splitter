@@ -17,4 +17,4 @@ Disponible en trois langues (🇧🇷 Portugais, 🇫🇷 Français, 🇬🇧 An
 
 👇 Regardez ci-dessous une démonstration de l'application :
 
-![Démonstration](https://raw.githubusercontent.com/arthurcornelio88/divisao_contas_multilingue/main/demo.gif)
+![Démonstration](https://media.githubusercontent.com/media/arthurcornelio88/divisao_contas_multilingue/main/demo.gif)
