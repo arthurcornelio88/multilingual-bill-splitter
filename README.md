@@ -8,7 +8,8 @@ sdk_version: 1.44.1
 app_file: app.py
 pinned: true
 license: mit
-short_description: Divisez les dépenses entre amis en plusieurs langues avec export PDF
+short_description: Partage des dépenses entre amis (PDF, 3 langues)
+
 ---
 
 Application simple pour répartir équitablement les dépenses entre amis.  
