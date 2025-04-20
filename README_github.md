@@ -46,8 +46,7 @@ Accès : [http://localhost:8501](http://localhost:8501)
 
 Essayez directement sur **Hugging Face Spaces** :
 
-🔗 [https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue](https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue)  
-*(lien fictif — à remplacer après le déploiement)*
+🔗 [https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue](https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue)
 
 ---
 
