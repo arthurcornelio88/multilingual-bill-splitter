@@ -1,5 +1,5 @@
 ---
-title: Partage Équitable des Dépenses · Multilingue · PDF
+title: Fair Expense Sharing · Multilingual · PDF
 emoji: 📚
 colorFrom: blue
 colorTo: yellow
@@ -8,15 +8,17 @@ sdk_version: 1.44.1
 app_file: app.py
 pinned: true
 license: mit
-short_description: Partage des dépenses entre amis (PDF, 3 langues)
+short_description: Expense sharing between friends (PDF, 3 languages)
 
 ---
 
-Application simple pour répartir équitablement les dépenses entre amis.  
-Disponible en trois langues (🇧🇷 Portugais, 🇫🇷 Français, 🇬🇧 Anglais), avec exportation en PDF et une interface intuitive construite avec Streamlit.
+A simple application to fairly share expenses among friends.
+Available in three languages (🇧🇷 Portuguese, 🇫🇷 French, 🇬🇧 English), with PDF export and an intuitive interface built with Streamlit.
 
-[Readme chez GitHub](https://github.com/arthurcornelio88/divisao_contas_multilingue/blob/main/README_github.md)
+[Link to live application in HuggingFace](https://huggingface.co/spaces/arthurcornelio88/divisao_contas_multilingue)
 
-👇 Regardez ci-dessous une démonstration de l'application :
+[Readme at GitHub](https://github.com/arthurcornelio88/divisao_contas_multilingue/blob/main/README_github.md)
 
-![Démonstration](https://media.githubusercontent.com/media/arthurcornelio88/divisao_contas_multilingue/main/demo.gif)
+👇 Watch a demonstration of the application below:
+
+![Demonstration](https://media.githubusercontent.com/media/arthurcornelio88/divisao_contas_multilingue/main/demo.gif)
